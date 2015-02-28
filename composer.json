@@ -3,10 +3,12 @@
         "silex/silex": "~1.2"
     },
     "require-dev": {
-        "phpspec/phpspec": "~2.0"
+        "phpspec/phpspec": "~2.0",
+        "behat/behat": "2.4.*@stable"
     },
     "config": {
         "bin-dir": "bin"
     },
+    "minimum-stability": "dev",
     "autoload": {"psr-0": {"": "src"}}
 }
